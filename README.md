@@ -29,7 +29,7 @@ filter 是否过滤多余字段 默认true 只获取验证的字段 通过$this-
 @validate(validate=AdminValidate::class,scene="login",throws=false)
 2020/11/26 新增对hyperf国际化组件支持 发布验证器语言文件
 
-php bin/hyperf.php vendor:publish kumaomao/validate
+php bin/hyperf.php vendor:publish Xingzhilantian/validate
 默认发布后语言包地址
 
 /storage

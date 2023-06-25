@@ -1,5 +1,5 @@
 {
-    "name": "kumaomao/validate",
+    "name": "Xingzhilantian/validate",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -9,7 +9,7 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "Kumaomao\\Validate\\": "src/"
+            "Xingzhilantian\\Validate\\": "src/"
         }
     },
     "autoload-dev": {
@@ -37,7 +37,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Kumaomao\\Validate\\ConfigProvider"
+            "config": "Xingzhilantian\\Validate\\ConfigProvider"
         }
     }
 }
