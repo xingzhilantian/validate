@@ -1,5 +1,5 @@
 <?php
-namespace Kumaomao\Validate\Validate;
+namespace Xingzhilantian\Validate\Validate;
 
 
 /**

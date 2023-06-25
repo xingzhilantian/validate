@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Kumaomao\Validate;
+namespace Xingzhilantian\Validate;
 
 
-use Kumaomao\Validate\Validate\ValidatorFactory;
-use Kumaomao\Validate\Validate\ValidatorFactoryInterface;
+use Xingzhilantian\Validate\Validate\ValidatorFactory;
+use Xingzhilantian\Validate\Validate\ValidatorFactoryInterface;
 
 class ConfigProvider
 {
@@ -35,7 +35,7 @@ class ConfigProvider
             'exceptions' => [
                 'handler' => [
                     'http' => [
-                        \Kumaomao\Validate\Exception\ValidateException::class,
+                        \Xingzhilantian\Validate\Exception\ValidateException::class,
                     ],
                 ],
             ],

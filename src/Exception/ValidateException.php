@@ -1,5 +1,5 @@
 <?php
-namespace Kumaomao\Validate\Exception;
+namespace Xingzhilantian\Validate\Exception;
 
 
 use Hyperf\Server\Exception\ServerException;

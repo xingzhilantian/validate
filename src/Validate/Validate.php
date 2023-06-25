@@ -1,13 +1,13 @@
 <?php
-namespace Kumaomao\Validate\Validate;
+namespace Xingzhilantian\Validate\Validate;
 
 
 use Hyperf\Contract\TranslatorInterface;
 use Hyperf\DbConnection\Db;
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Str;
-use Kumaomao\Validate\Exception\ValidateException;
-use Kumaomao\Validate\Validate\ValidateRule;
+use Xingzhilantian\Validate\Exception\ValidateException;
+use Xingzhilantian\Validate\Validate\ValidateRule;
 
 /**
  * 数据验证类

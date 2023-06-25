@@ -1,12 +1,12 @@
 <?php
-namespace Kumaomao\Validate\Annotations;
+namespace Xingzhilantian\Validate\Annotations;
 
 use Hyperf\Di\Annotation\AbstractAnnotation;
 
 /**
  * 验证器注解
  * Class Validate
- * @package Kumaomao\Validate\Annotations
+ * @package Xingzhilantian\Validate\Annotations
  * @Annotation
  * @Target({"METHOD"})
  */

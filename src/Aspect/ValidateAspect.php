@@ -1,18 +1,18 @@
 <?php
-namespace Kumaomao\Validate\Aspect;
+namespace Xingzhilantian\Validate\Aspect;
 
 use Hyperf\Di\Annotation\Aspect;
 use Hyperf\Di\Aop\AbstractAspect;
 use Hyperf\Di\Aop\ProceedingJoinPoint;
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Context;
-use Kumaomao\Validate\Annotations\Validate;
-use Kumaomao\Validate\Exception\ValidateException;
+use Xingzhilantian\Validate\Annotations\Validate;
+use Xingzhilantian\Validate\Exception\ValidateException;
 use Psr\Http\Message\ServerRequestInterface;
 
 /**
  * Class ValidateAspect
- * @package Kumaomao\Validate\Aspect
+ * @package Xingzhilantian\Validate\Aspect
  * @Aspect
  */
 class ValidateAspect extends AbstractAspect
